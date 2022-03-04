@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/index.min.css">
+    <script src="./js/main.js" defer></script>
+    <title>Js 股票</title>
+  </head>
+
+  <body>
+    <header class="header container mx-auto d-flex">
+      <h1 class="header__title text-lg">指數行情</h1>
+      <p class="header__date" id="HeaderDate"><i class="fa-regular fa-calendar-days"></i> 2021/04/16</p>
+    </header>
+    <main class="main container mx-auto">
+      <table class="marketTable text-grey">
+        <colgroup>
+          <col span="1" class="marketTable__cate">
+          <col span="1" class="marketTable__index">
+          <col span="1" class="marketTable__upDowns">
+          <col span="1" class="marketTable__prop">
+          <col span="1" class="marketTable__volume">
+        </colgroup>
+
+        <thead>
+          <tr valign="center" class="bg-dark">
+            <th align="center" class="marketTable__th">分類</th>
+            <th align="center" class="marketTable__th">指數</th>
+            <th align="center" class="marketTable__th">漲跌</th>
+            <th align="center" class="marketTable__th">漲跌幅（％）</th>
+            <th align="center" class="marketTable__th">成交量（億）</th>
+          </tr>
+        </thead>
+
+        <tbody id="MarketTableBody" class="marketTable__body">
+        </tbody>
+
+      </table>
+    </main>
+  </body>
+
+</html>

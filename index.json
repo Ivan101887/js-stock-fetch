@@ -1,0 +1,281 @@
+[
+  {
+    "Date": "20210416",
+    "CommKey": "TWB18",
+    "CommName": "玻璃陶瓷",
+    "ClosePr": "63.29",
+    "CF": "3.96",
+    "CFPercent": "6.67",
+    "SalePrice": "2032242"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB20",
+    "CommName": "鋼鐵類",
+    "ClosePr": "163.27",
+    "CF": "9.52",
+    "CFPercent": "6.19",
+    "SalePrice": "34374011"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB26",
+    "CommName": "運輸類",
+    "ClosePr": "139.94",
+    "CF": "7.91",
+    "CFPercent": "5.99",
+    "SalePrice": "37637930"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB16",
+    "CommName": "電器電纜",
+    "ClosePr": "74.04",
+    "CF": "2.65",
+    "CFPercent": "3.71",
+    "SalePrice": "5206932"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB11",
+    "CommName": "水泥類",
+    "ClosePr": "195.88",
+    "CF": "4.16",
+    "CFPercent": "2.17",
+    "SalePrice": "4059655"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB14",
+    "CommName": "紡織纖維",
+    "ClosePr": "644.03",
+    "CF": "13.61",
+    "CFPercent": "2.16",
+    "SalePrice": "6180902"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB34",
+    "CommName": "電腦及週邊設備",
+    "ClosePr": "146.34",
+    "CF": "3.06",
+    "CFPercent": "2.14",
+    "SalePrice": "19009825"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB35",
+    "CommName": "光電",
+    "ClosePr": "49.88",
+    "CF": "0.95",
+    "CFPercent": "1.94",
+    "SalePrice": "33782680"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB19",
+    "CommName": "造紙類",
+    "ClosePr": "438.16",
+    "CF": "8.22",
+    "CFPercent": "1.91",
+    "SalePrice": "2481785"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB40",
+    "CommName": "其他電子",
+    "ClosePr": "113.15",
+    "CF": "2.07",
+    "CFPercent": "1.86",
+    "SalePrice": "12493894"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB13",
+    "CommName": "塑膠類",
+    "ClosePr": "307.34",
+    "CF": "5.13",
+    "CFPercent": "1.70",
+    "SalePrice": "19707067"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB21",
+    "CommName": "橡膠類",
+    "ClosePr": "389.59",
+    "CF": "5.50",
+    "CFPercent": "1.43",
+    "SalePrice": "5370503"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB22",
+    "CommName": "汽車類",
+    "ClosePr": "351.66",
+    "CF": "4.02",
+    "CFPercent": "1.16",
+    "SalePrice": "2586895"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB38",
+    "CommName": "電子通路",
+    "ClosePr": "163.05",
+    "CF": "1.83",
+    "CFPercent": "1.14",
+    "SalePrice": "2103440"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB25",
+    "CommName": "營建類",
+    "ClosePr": "365.88",
+    "CF": "3.91",
+    "CFPercent": "1.08",
+    "SalePrice": "2313504"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB30",
+    "CommName": "化學工業",
+    "ClosePr": "126.66",
+    "CF": "1.26",
+    "CFPercent": "1.00",
+    "SalePrice": "3115456"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB12",
+    "CommName": "食品類",
+    "ClosePr": "1928.08",
+    "CF": "15.65",
+    "CFPercent": "0.82",
+    "SalePrice": "1813120"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB15",
+    "CommName": "電機類",
+    "ClosePr": "268.11",
+    "CF": "2.14",
+    "CFPercent": "0.80",
+    "SalePrice": "6042189"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB17",
+    "CommName": "化學生技醫療",
+    "ClosePr": "114.80",
+    "CF": "0.77",
+    "CFPercent": "0.68",
+    "SalePrice": "5031333"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB99",
+    "CommName": "其他類",
+    "ClosePr": "364.60",
+    "CF": "2.45",
+    "CFPercent": "0.68",
+    "SalePrice": "6387097"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB36",
+    "CommName": "通信網路業",
+    "ClosePr": "131.76",
+    "CF": "0.78",
+    "CFPercent": "0.60",
+    "SalePrice": "12681626"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB28",
+    "CommName": "金融保險",
+    "ClosePr": "1439.48",
+    "CF": "8.16",
+    "CFPercent": "0.57",
+    "SalePrice": "12459356"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB37",
+    "CommName": "電子零組件",
+    "ClosePr": "175.45",
+    "CF": "0.83",
+    "CFPercent": "0.48",
+    "SalePrice": "26463809"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB32",
+    "CommName": "油電燃氣",
+    "ClosePr": "132.10",
+    "CF": "0.63",
+    "CFPercent": "0.48",
+    "SalePrice": "473139"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWA00",
+    "CommName": "加權指數",
+    "ClosePr": "17158.81",
+    "CF": "82.08",
+    "CFPercent": "0.48",
+    "SalePrice": "429729126"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB39",
+    "CommName": "資訊服務",
+    "ClosePr": "135.39",
+    "CF": "0.47",
+    "CFPercent": "0.35",
+    "SalePrice": "496020"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB31",
+    "CommName": "生技醫療",
+    "ClosePr": "71.40",
+    "CF": "0.22",
+    "CFPercent": "0.31",
+    "SalePrice": "1915877"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB29",
+    "CommName": "百貨類",
+    "ClosePr": "285.64",
+    "CF": "0.67",
+    "CFPercent": "0.24",
+    "SalePrice": "1356860"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB23",
+    "CommName": "電子類",
+    "ClosePr": "845.87",
+    "CF": "-0.87",
+    "CFPercent": "-0.10",
+    "SalePrice": "257988044"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB27",
+    "CommName": "觀光類",
+    "ClosePr": "109.07",
+    "CF": "-0.24",
+    "CFPercent": "-0.22",
+    "SalePrice": "456356"
+  },
+  {
+    "Date": "20210416",
+    "CommKey": "TWB33",
+    "CommName": "半導體",
+    "ClosePr": "418.46",
+    "CF": "-3.81",
+    "CFPercent": "-0.90",
+    "SalePrice": "150956750"
+  }
+]
