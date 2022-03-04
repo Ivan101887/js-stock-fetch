@@ -22,20 +22,15 @@ function roundDecimal(val, precision) {
 }
 
 function makeDom(strDate = '', strTbody='') {
+  strDate = convertDate(data[0].Date);
   data.forEach((item, index) => {
-    strDate = convertDate(item.Date);
     strTbody +=
-      `${index % 2 !== 0 ?
-        `<tr class="bg-grey">`
-        : `<tr class="bg-white">`}
-          <td align="left">${item.CommName}</td>
-          <td align="right">${item.ClosePr}</td>
-          ${parseFloat(item.CF, 10) > 0 ? 
-          `<td align="right" class="js-rise">${item.CF}</td>
-          <td align="right" class=" js-rise">${item.CFPercent}</td>`: 
-          `<td align="right" class=" js-drop">${item.CF}</td>
-          <td align="right" class=" js-drop">${item.CFPercent}</td>`}
-          <td align="right">${roundDecimal(item.SalePrice / 100000, 1)}</td>
+      `<tr class=${index % 2 !== 0 ?`bg-grey`:`bg-white`}>
+          <td class="marketTable__td">${item.CommName}</td>
+          <td class="marketTable__td text-right">${item.ClosePr}</td>
+          <td class="marketTable__td text-right ${parseFloat(item.CF, 10) > 0 ?`js-rise"`:`js-drop"`}>${item.CF}</td>
+          <td class="marketTable__td text-right ${parseFloat(item.CF, 10) > 0 ?`js-rise"`:`js-drop"`}>${item.CFPercent}</td>
+          <td class="marketTable__td text-right">${roundDecimal(item.SalePrice / 100000, 1)}</td>
       </tr>`
   })
   return [strDate, strTbody];

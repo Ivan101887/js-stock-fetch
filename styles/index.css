@@ -108,6 +108,10 @@ html {
   color: #666;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .header {
   background-color: #fff;
   padding: 15px;
@@ -120,9 +124,9 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .header__title {
@@ -135,7 +139,11 @@ html {
   font-size: 16px;
 }
 
-.marketTable th {
+.marketTable {
+  width: 100%;
+}
+
+.marketTable__th {
   padding: 0.718rem;
   font-weight: 600;
   border-width: 1px 1px 2px 1px;
@@ -143,7 +151,7 @@ html {
   border-color: #ddd;
 }
 
-.marketTable td {
+.marketTable__td {
   padding: 0.718rem;
   border: 1px solid #ddd;
 }

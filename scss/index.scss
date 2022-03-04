@@ -72,6 +72,9 @@ html {
   &-dark {
     color: #666;
   }
+  &-right {
+    text-align: right;
+  }
 }
 
 .header {
@@ -90,7 +93,7 @@ html {
     radius: 3px;
   }
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: baseline;
   &__title {
     font: {
       size: 1.8rem;
@@ -107,7 +110,8 @@ html {
 
 
 .marketTable {
-  th {
+  width: 100%;
+  &__th {
     padding: 0.718rem;
     font: {
       weight: 600;
@@ -118,7 +122,7 @@ html {
       color: #ddd;
     }
   }
-  td {
+  &__td {
     padding: 0.718rem;
     border: 1px solid #ddd;
   }
