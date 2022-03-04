@@ -134,11 +134,6 @@ html {
   font-weight: 600;
 }
 
-.header__date {
-  color: #666;
-  font-size: 16px;
-}
-
 .marketTable {
   width: 100%;
 }
@@ -154,24 +149,4 @@ html {
 .marketTable__td {
   padding: 0.718rem;
   border: 1px solid #ddd;
-}
-
-.marketTable__cate {
-  width: 200px;
-}
-
-.marketTable__index {
-  width: 140px;
-}
-
-.marketTable__upDowns {
-  width: 100px;
-}
-
-.marketTable__prop {
-  width: 180px;
-}
-
-.marketTable__volume {
-  width: 180px;
 }

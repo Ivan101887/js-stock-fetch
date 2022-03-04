@@ -42,7 +42,6 @@ html {
     background: {
       color: #f9f9f9;
     };
-
   }
   &-white {
     background: {
@@ -50,6 +49,7 @@ html {
     };
   }
 }
+
 .js {
   &-drop {
       color: #22A223 !important;
@@ -100,14 +100,8 @@ html {
       weight: 600;
     }
   }
-  &__date {
-    color: #666;
-    font: {
-      size: 16px;
-    }
-  }
+ 
 }
-
 
 .marketTable {
   width: 100%;
@@ -126,20 +120,4 @@ html {
     padding: 0.718rem;
     border: 1px solid #ddd;
   }
-  &__cate {
-    width: 200px;
-  }
-  &__index {
-    width: 140px;
-  }
-  &__upDowns {
-    width: 100px;
-  }
-  &__prop {
-    width: 180px;
-  }
-  &__volume {
-    width: 180px;
-  }
-  
 }

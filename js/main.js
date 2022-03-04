@@ -25,7 +25,7 @@ function makeDom(strDate = '', strTbody='') {
   strDate = convertDate(data[0].Date);
   data.forEach((item, index) => {
     strTbody +=
-      `<tr class=${index % 2 !== 0 ?`bg-grey`:`bg-white`}>
+      `<tr class="marketTable__tr ${index % 2 !== 0 ? `bg-grey"`:`bg-white"`}>
           <td class="marketTable__td">${item.CommName}</td>
           <td class="marketTable__td text-right">${item.ClosePr}</td>
           <td class="marketTable__td text-right ${parseFloat(item.CF, 10) > 0 ?`js-rise"`:`js-drop"`}>${item.CF}</td>
