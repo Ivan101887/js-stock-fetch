@@ -83,6 +83,12 @@ html {
     top: 15px;
     bottom: 15px;
   }
+  border: {
+    width: 0 1px 1px 1px;
+    style: solid;
+    color: #ddd;
+    radius: 3px;
+  }
   justify-content: space-between;
   align-items: flex-end;
   &__title {
@@ -102,7 +108,7 @@ html {
 
 .marketTable {
   th {
-    padding: 14px;
+    padding: 0.718rem;
     font: {
       weight: 600;
     }
@@ -113,7 +119,7 @@ html {
     }
   }
   td {
-    padding: 14px;
+    padding: 0.718rem;
     border: 1px solid #ddd;
   }
   &__cate {

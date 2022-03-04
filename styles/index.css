@@ -113,6 +113,10 @@ html {
   padding: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #ddd;
+  border-radius: 3px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -132,7 +136,7 @@ html {
 }
 
 .marketTable th {
-  padding: 14px;
+  padding: 0.718rem;
   font-weight: 600;
   border-width: 1px 1px 2px 1px;
   border-style: solid;
@@ -140,7 +144,7 @@ html {
 }
 
 .marketTable td {
-  padding: 14px;
+  padding: 0.718rem;
   border: 1px solid #ddd;
 }
 
